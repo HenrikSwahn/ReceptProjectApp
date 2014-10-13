@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4355DFB19EBF24E0082DA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4355DFA19EBF24E0082DA40 /* AppDelegate.swift */; };
+		A4355DFE19EBF24E0082DA40 /* ReceptProjekt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4355DFC19EBF24E0082DA40 /* ReceptProjekt.xcdatamodeld */; };
+		A4355E0019EBF24E0082DA40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4355DFF19EBF24E0082DA40 /* ViewController.swift */; };
+		A4355E0319EBF24E0082DA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4355E0119EBF24E0082DA40 /* Main.storyboard */; };
+		A4355E0519EBF24E0082DA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4355E0419EBF24E0082DA40 /* Images.xcassets */; };
+		A4355E0819EBF24E0082DA40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4355E0619EBF24E0082DA40 /* LaunchScreen.xib */; };
+		A4355E1419EBF24F0082DA40 /* ReceptProjektTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4355E1319EBF24F0082DA40 /* ReceptProjektTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4355E0E19EBF24F0082DA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4355DED19EBF24E0082DA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4355DF419EBF24E0082DA40;
+			remoteInfo = ReceptProjekt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4355DF519EBF24E0082DA40 /* ReceptProjekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptProjekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4355DF919EBF24E0082DA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4355DFA19EBF24E0082DA40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4355DFD19EBF24E0082DA40 /* ReceptProjekt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReceptProjekt.xcdatamodel; sourceTree = "<group>"; };
+		A4355DFF19EBF24E0082DA40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4355E0219EBF24E0082DA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4355E0419EBF24E0082DA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A4355E0719EBF24E0082DA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A4355E0D19EBF24F0082DA40 /* ReceptProjektTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReceptProjektTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4355E1219EBF24F0082DA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4355E1319EBF24F0082DA40 /* ReceptProjektTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceptProjektTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4355DF219EBF24E0082DA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4355E0A19EBF24F0082DA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4355DEC19EBF24E0082DA40 = {
+			isa = PBXGroup;
+			children = (
+				A4355DF719EBF24E0082DA40 /* ReceptProjekt */,
+				A4355E1019EBF24F0082DA40 /* ReceptProjektTests */,
+				A4355DF619EBF24E0082DA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4355DF619EBF24E0082DA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4355DF519EBF24E0082DA40 /* ReceptProjekt.app */,
+				A4355E0D19EBF24F0082DA40 /* ReceptProjektTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4355DF719EBF24E0082DA40 /* ReceptProjekt */ = {
+			isa = PBXGroup;
+			children = (
+				A4355DFA19EBF24E0082DA40 /* AppDelegate.swift */,
+				A4355DFF19EBF24E0082DA40 /* ViewController.swift */,
+				A4355E0119EBF24E0082DA40 /* Main.storyboard */,
+				A4355E0419EBF24E0082DA40 /* Images.xcassets */,
+				A4355E0619EBF24E0082DA40 /* LaunchScreen.xib */,
+				A4355DFC19EBF24E0082DA40 /* ReceptProjekt.xcdatamodeld */,
+				A4355DF819EBF24E0082DA40 /* Supporting Files */,
+			);
+			path = ReceptProjekt;
+			sourceTree = "<group>";
+		};
+		A4355DF819EBF24E0082DA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4355DF919EBF24E0082DA40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4355E1019EBF24F0082DA40 /* ReceptProjektTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4355E1319EBF24F0082DA40 /* ReceptProjektTests.swift */,
+				A4355E1119EBF24F0082DA40 /* Supporting Files */,
+			);
+			path = ReceptProjektTests;
+			sourceTree = "<group>";
+		};
+		A4355E1119EBF24F0082DA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4355E1219EBF24F0082DA40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4355DF419EBF24E0082DA40 /* ReceptProjekt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4355E1719EBF24F0082DA40 /* Build configuration list for PBXNativeTarget "ReceptProjekt" */;
+			buildPhases = (
+				A4355DF119EBF24E0082DA40 /* Sources */,
+				A4355DF219EBF24E0082DA40 /* Frameworks */,
+				A4355DF319EBF24E0082DA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReceptProjekt;
+			productName = ReceptProjekt;
+			productReference = A4355DF519EBF24E0082DA40 /* ReceptProjekt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4355E0C19EBF24F0082DA40 /* ReceptProjektTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4355E1A19EBF24F0082DA40 /* Build configuration list for PBXNativeTarget "ReceptProjektTests" */;
+			buildPhases = (
+				A4355E0919EBF24F0082DA40 /* Sources */,
+				A4355E0A19EBF24F0082DA40 /* Frameworks */,
+				A4355E0B19EBF24F0082DA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4355E0F19EBF24F0082DA40 /* PBXTargetDependency */,
+			);
+			name = ReceptProjektTests;
+			productName = ReceptProjektTests;
+			productReference = A4355E0D19EBF24F0082DA40 /* ReceptProjektTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4355DED19EBF24E0082DA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Henrik Swahn";
+				TargetAttributes = {
+					A4355DF419EBF24E0082DA40 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A4355E0C19EBF24F0082DA40 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A4355DF419EBF24E0082DA40;
+					};
+				};
+			};
+			buildConfigurationList = A4355DF019EBF24E0082DA40 /* Build configuration list for PBXProject "ReceptProjekt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4355DEC19EBF24E0082DA40;
+			productRefGroup = A4355DF619EBF24E0082DA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4355DF419EBF24E0082DA40 /* ReceptProjekt */,
+				A4355E0C19EBF24F0082DA40 /* ReceptProjektTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4355DF319EBF24E0082DA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4355E0319EBF24E0082DA40 /* Main.storyboard in Resources */,
+				A4355E0819EBF24E0082DA40 /* LaunchScreen.xib in Resources */,
+				A4355E0519EBF24E0082DA40 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4355E0B19EBF24F0082DA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4355DF119EBF24E0082DA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4355E0019EBF24E0082DA40 /* ViewController.swift in Sources */,
+				A4355DFE19EBF24E0082DA40 /* ReceptProjekt.xcdatamodeld in Sources */,
+				A4355DFB19EBF24E0082DA40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4355E0919EBF24F0082DA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4355E1419EBF24F0082DA40 /* ReceptProjektTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4355E0F19EBF24F0082DA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4355DF419EBF24E0082DA40 /* ReceptProjekt */;
+			targetProxy = A4355E0E19EBF24F0082DA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4355E0119EBF24E0082DA40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4355E0219EBF24E0082DA40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4355E0619EBF24E0082DA40 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4355E0719EBF24E0082DA40 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4355E1519EBF24F0082DA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4355E1619EBF24F0082DA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4355E1819EBF24F0082DA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReceptProjekt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4355E1919EBF24F0082DA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReceptProjekt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4355E1B19EBF24F0082DA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReceptProjektTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptProjekt.app/ReceptProjekt";
+			};
+			name = Debug;
+		};
+		A4355E1C19EBF24F0082DA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReceptProjektTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReceptProjekt.app/ReceptProjekt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4355DF019EBF24E0082DA40 /* Build configuration list for PBXProject "ReceptProjekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4355E1519EBF24F0082DA40 /* Debug */,
+				A4355E1619EBF24F0082DA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4355E1719EBF24F0082DA40 /* Build configuration list for PBXNativeTarget "ReceptProjekt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4355E1819EBF24F0082DA40 /* Debug */,
+				A4355E1919EBF24F0082DA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4355E1A19EBF24F0082DA40 /* Build configuration list for PBXNativeTarget "ReceptProjektTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4355E1B19EBF24F0082DA40 /* Debug */,
+				A4355E1C19EBF24F0082DA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4355DFC19EBF24E0082DA40 /* ReceptProjekt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4355DFD19EBF24E0082DA40 /* ReceptProjekt.xcdatamodel */,
+			);
+			currentVersion = A4355DFD19EBF24E0082DA40 /* ReceptProjekt.xcdatamodel */;
+			path = ReceptProjekt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4355DED19EBF24E0082DA40 /* Project object */;
+}
