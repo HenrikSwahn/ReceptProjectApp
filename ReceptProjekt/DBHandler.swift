@@ -21,20 +21,26 @@ class DBHandler: NSObject
     {
         var conn: MySQLConnection = MySQLConnection();
         conn.retriveRecipes();
-
-        //Fetches the recipes from the conn var and append to reciArray
-        for(var i = 0 as Int32; i < conn.getSize(); i++)
+        
+        if(conn.getWebserverCheck()) //Connected to webserver
         {
-            var temp = RecipeClass(
-                id:conn.getID(i),
-                name:conn.getName(i),
-                category:conn.getCategory(i),
-                desc:conn.getDesc(i),
-                time:conn.getTime(i),
-                URL:conn.getURL(i));
-            reciArray.append(temp);
+            if(conn.getMySqlCheck()) //Connected to MySQL server
+            {
+                //Fetches the recipes from the conn var and append to reciArray
+                for(var i = 0 as Int32; i < conn.getSize(); i++)
+                {
+                    var temp = RecipeClass(
+                        id:conn.getID(i),
+                        name:conn.getName(i),
+                        category:conn.getCategory(i),
+                        desc:conn.getDesc(i),
+                        time:conn.getTime(i),
+                        URL:conn.getURL(i));
+                    reciArray.append(temp);
+                }
+                insertRecipesIntoDB();
+            }
         }
-        insertRecipesIntoDB();
     }
     private func insertRecipesIntoDB() //Inserts recipes from reciArr into the internal database
     {
@@ -99,14 +105,19 @@ class DBHandler: NSObject
     {
         var conn: MySQLConnection = MySQLConnection();
         conn.retriveIngredients();
-        
-        //Fetches the ingredients from the conn var and append to ingrArray
-        for(var i = 0 as Int32; i < conn.getIngredientSize(); i++)
+        if(conn.getWebserverCheck()) //Connected to webser
         {
-            var temp = IngredientClass(id: conn.getIngredientsID(i), name: conn.getIngredientsName(i));
-            ingrArray.append(temp);
+            if(conn.getMySqlCheck()) //Connected to MySql server
+            {
+                //Fetches the ingredients from the conn var and append to ingrArray
+                for(var i = 0 as Int32; i < conn.getIngredientSize(); i++)
+                {
+                    var temp = IngredientClass(id: conn.getIngredientsID(i), name: conn.getIngredientsName(i));
+                    ingrArray.append(temp);
+                }
+                inserIngredientsIntoDB();
+            }
         }
-        inserIngredientsIntoDB();
     }
     private func inserIngredientsIntoDB() //Inserts ingredients from ingrArray into the internal database
     {
@@ -165,17 +176,23 @@ class DBHandler: NSObject
         var conn: MySQLConnection = MySQLConnection();
         conn.retriveRelations();
         
-        //Fetches the relations from the conn var and append to relArray
-        for(var i = 0 as Int32; i < conn.getRelationsSize(); i++)
+        if(conn.getWebserverCheck()) //Connected to webserver
         {
-            var temp = RelationClass(
-                FkRecipe: conn.getFkRecipe(i),
-                FkIngredient: conn.getFkIngredient(i),
-                amount: conn.getAmount(i),
-                unit: conn.getUnit(i));
-            relArray.append(temp);
+            if(conn.getMySqlCheck()) //Connected to MySQL server
+            {
+                //Fetches the relations from the conn var and append to relArray
+                for(var i = 0 as Int32; i < conn.getRelationsSize(); i++)
+                {
+                    var temp = RelationClass(
+                        FkRecipe: conn.getFkRecipe(i),
+                        FkIngredient: conn.getFkIngredient(i),
+                        amount: conn.getAmount(i),
+                        unit: conn.getUnit(i));
+                    relArray.append(temp);
+                }
+                insertRelationsIntoDB();
+            }
         }
-        insertRelationsIntoDB();
     }
     private func insertRelationsIntoDB() //Inserts the relations from the relArray into the internal database
     {
@@ -276,6 +293,7 @@ class DBHandler: NSObject
     //Return a NSArray with the result from the query
     func getEntity(Entity: String,filter: String,Predicate: String) ->NSArray
     {
+        
         let appDel:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate;
         let context: NSManagedObjectContext = appDel.managedObjectContext!;
         let ent = NSEntityDescription.entityForName(Entity, inManagedObjectContext: context)!;

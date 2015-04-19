@@ -9,7 +9,11 @@
 
 @interface MySQLConnection : NSObject
 
+@property (assign) BOOL mySqlCheck;
+@property (assign) BOOL webServerCheck;
 
+-(BOOL)getMySqlCheck;
+-(BOOL)getWebserverCheck;
 //Recipes
 @property (nonatomic, strong) NSMutableArray * jsonArray;
 @property (nonatomic, strong) NSMutableArray * recipesIDArray;
